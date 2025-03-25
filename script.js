@@ -1,4 +1,4 @@
-const socket = io('http://localhost:3000');
+const socket = io();
 const username = prompt('Enter your username:');
 
 const messages = document.getElementById('messages');
