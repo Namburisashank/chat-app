@@ -1,0 +1,64 @@
+/* General styling */
+body {
+    background-color: #f0f2f5; /* Light gray background */
+    font-family: 'Roboto', sans-serif; /* Modern font */
+    margin: 0;
+    padding: 0;
+}
+
+#chat-container {
+    width: 500px; /* Slightly wider */
+    margin: 40px auto; /* Centered with top/bottom margin */
+    background-color: #ffffff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
+}
+
+#messages {
+    height: 400px; /* Taller message area */
+    overflow-y: auto; /* Scroll if needed */
+    padding: 15px;
+    background-color: #fafafa; /* Very light gray */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Style individual messages */
+#messages div {
+    background-color: #e9ecef; /* Light gray bubble */
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 15px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+/* Input and button styling */
+#message-input {
+    width: 75%; /* Slightly wider */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none; /* Remove default focus outline */
+}
+
+#message-input:focus {
+    border-color: #007bff; /* Blue border on focus */
+}
+
+#send-button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Bright blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer; /* Hand on hover */
+    margin-left: 10px;
+}
+
+#send-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
